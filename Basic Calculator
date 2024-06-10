@@ -1,0 +1,47 @@
+//public class
+public class Calculator{
+  //public constructor inside of the class
+  public Calculator(){
+
+  }
+ //public add method
+  public int add(int a, int b){
+    return a + b;
+  }
+
+  //public subtract method
+  public int subtract(int a, int b){
+    return a - b;
+  }
+
+  //public multiply method
+  public int multiply(int a, int b){
+    return a * b;
+  }
+
+  //public divide method
+  public int divide(int a, int b){
+    return a / b;
+  }
+
+  //public modulo method
+  public int modulo(int a, int b){
+    return a % b;
+  }
+
+  //main method 
+  public static void main(String[] args){
+    Calculator myCalculator = new Calculator();
+
+    //calling add method
+    System.out.println(myCalculator.add(7, 5));
+    //calling Subtract method
+    System.out.println(myCalculator.subtract(45, 11));
+    //calling multiply method
+    System.out.println(myCalculator.multiply(9, 2));
+    //calling divide method
+    System.out.println(myCalculator.divide(49, 41));
+    //calling modulo method
+    System.out.println(myCalculator.modulo(6, 5));
+  }
+}
